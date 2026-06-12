@@ -1,0 +1,11 @@
+task_name,time_per_task_min,volume_per_day,frequency,department
+Data Entry,15,50,daily,Operations
+Report Generation,45,10,daily,Finance
+File Processing,12,100,daily,IT
+Email Sorting,8,200,daily,Administrative
+Meeting Scheduling,5,75,daily,HR
+Invoice Processing,20,30,daily,Finance
+Customer Call Handling,10,150,daily,Service
+Inventory Update,25,20,daily,Operations
+Quality Check,18,40,daily,Operations
+Document Verification,30,15,daily,Legal

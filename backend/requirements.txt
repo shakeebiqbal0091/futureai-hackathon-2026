@@ -1,0 +1,31 @@
+# Backend Requirements for WorkForce Intelligence Agent
+
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+
+# File Processing
+openpyxl==3.1.2
+
+# AI/LLM Integration
+anthropic==0.28.1
+
+# HTTP Requests (for external APIs if needed)
+requests==2.31.0
+
+# Environmental Variables
+python-dotenv==1.0.0
+
+# Data Validation
+pydantic==2.5.0
+
+# CORS Middleware
+# Already included with fastapi
+
+# Optional: For advanced charting (if needed)
+# matplotlib==3.8.0
+# seaborn==0.13.0
