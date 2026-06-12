@@ -1,6 +1,7 @@
 """
 Report Writer Agent - Converts analysis into narrative summaries and executive decks
 """
+from typing import List, Dict, Any, Optional
 from typing import Dict, Any, Optional
 import logging
 from datetime import datetime

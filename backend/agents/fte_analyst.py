@@ -130,7 +130,7 @@ class FTEAnalystAgent:
                 return col
         return None
 
-    def _detect_frequency_column(self, df: pd.DataColumn) -> Optional[str]:
+    def _detect_frequency_column(self, df: pd.DataFrame) -> Optional[str]:
         """Auto-detect frequency column"""
         freq_indicators = ['frequency', 'freq', 'times', 'per_day', 'per_week', 'daily', 'weekly']
         for col in df.columns:
